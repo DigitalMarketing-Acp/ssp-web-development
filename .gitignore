@@ -1,0 +1,23 @@
+node_modules
+dist-ssr
+*.local
+.vite
+
+# Environment — keep secrets out of source control (.env.example is committed)
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output (GitHub Actions builds and deploys it)
+dist
