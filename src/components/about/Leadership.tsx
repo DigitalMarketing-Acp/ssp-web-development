@@ -60,8 +60,7 @@ const verifiedLeaders: VerifiedLeader[] = [
     alt: 'Vijay Chandran, General Manager',
     bio: [
       'Vijay Chandran is a strategic healthcare operations leader with 20+ years of experience driving operational excellence, transformation, and client success across the U.S. healthcare and Revenue Cycle Management (RCM) landscape.',
-      'As General Manager of Solid State Practice (SSP), Vijay provides strategic leadership across RCM, clinical operations, call center services, process transformation, and client delivery. He leads initiatives focused on building scalable operating models, strengthening performance, and delivering measurable business outcomes.',
-      'Vijay brings deep expertise in end-to-end RCM, process mapping and re-engineering, workflow optimization, automation, and technology-enabled healthcare operations. He works closely with clients and cross-functional leadership teams to identify opportunities, simplify complex processes, improve service delivery, and build efficient, scalable solutions.',
+      'As General Manager of Solid State Practice (SSP), Vijay provides strategic leadership across RCM, clinical operations, call center services, process transformation, and client delivery. He leads initiatives focused on building scalable operating models, strengthening performance, and delivering measurable business outcomes. Vijay works closely with clients and cross-functional leadership teams to identify opportunities, simplify complex processes, improve service delivery, and build efficient, scalable solutions.',
     ],
   },
 ]
