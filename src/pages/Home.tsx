@@ -22,7 +22,7 @@ export default function Home() {
       {/* 1. Branding & Hero */}
       <Hero />
 
-      {/* 2. Operations Statistics (120+, 12,000+, 2,000+, 60+) */}
+      {/* 2. Operations Statistics (150+, 12,000+, 2,000+, 60+) */}
       <StatsSection />
 
       {/* 3. About SSP & Part of AlignedCardio Platform */}

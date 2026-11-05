@@ -3,7 +3,7 @@ import { Reveal } from '../ui/Reveal'
 
 const stats = [
   {
-    value: '120+',
+    value: '150+',
     labelFirst: 'Healthcare Operations',
     labelSecond: 'Professionals',
     icon: Users,

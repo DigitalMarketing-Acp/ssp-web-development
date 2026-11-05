@@ -277,7 +277,7 @@ export const innovationStages: InnovationStage[] = [
 // Statistics
 export const operationsStats = [
   {
-    value: '120+',
+    value: '150+',
     label: 'Healthcare Operations Professionals',
     icon: Users,
   },
