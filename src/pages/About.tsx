@@ -43,7 +43,7 @@ export default function About() {
       />
 
       {/* Our Story & Origin */}
-      <section className="section-pad">
+      <section className="section-pad !pb-6 sm:!pb-8 lg:!pb-10">
         <div className="container-page grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <span className="eyebrow mb-4">Our Origin</span>
@@ -92,7 +92,7 @@ export default function About() {
       <AboutAlignedCardio showHeritageCard={false} />
 
       {/* Operational Pillars */}
-      <section className="section-pad bg-white">
+      <section className="section-pad !py-6 sm:!py-8 lg:!py-10 bg-white">
         <div className="container-page">
           <Reveal>
             <SectionHeading
@@ -123,7 +123,7 @@ export default function About() {
       </section>
 
       {/* Operating Principles */}
-      <section className="section-pad bg-surface-soft">
+      <section className="section-pad !py-6 sm:!py-8 lg:!py-10 bg-surface-soft">
         <div className="container-page grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal className="relative order-last lg:order-first">
             <div className="aspect-[4/3] overflow-hidden rounded-3xl border border-slate-200/70 shadow-card">
@@ -171,7 +171,7 @@ export default function About() {
 
       {/* Vision & Mission */}
       <div className="bg-surface-soft">
-        <div className="container-page pt-10 text-center sm:pt-16 lg:pt-20">
+        <div className="container-page pt-8 text-center sm:pt-10 lg:pt-12">
           <Reveal>
             <SectionHeading
               align="center"

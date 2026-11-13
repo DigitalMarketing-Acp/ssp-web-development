@@ -39,7 +39,7 @@ const scaleDimensions = [
 
 export function BuiltAtScaleSection() {
   return (
-    <section className="section-pad bg-white">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-white">
       <div className="container-page space-y-12">
         <Reveal>
           <SectionHeading

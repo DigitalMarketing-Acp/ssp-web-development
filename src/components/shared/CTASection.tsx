@@ -15,7 +15,7 @@ export function CTASection({
   hideSecondary = false,
 }: CTASectionProps) {
   return (
-    <section className="section-pad">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10">
       <div className="container-page">
         <Reveal className="relative overflow-hidden rounded-3xl bg-brand-800 px-6 py-14 sm:px-12 lg:px-16 lg:py-20">
           {/* decorative accents */}

@@ -30,7 +30,7 @@ export default function Services() {
       </PageHero>
 
       {/* 6 Core Capabilities Section */}
-      <section className="section-pad !pb-8 sm:!pb-10 lg:!pb-12 bg-white">
+      <section className="section-pad !pb-6 sm:!pb-8 lg:!pb-10 bg-white">
         <div className="container-page">
           <Reveal>
             <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-14">
@@ -71,9 +71,6 @@ export default function Services() {
                         <h3 className="mt-1 text-2xl font-extrabold text-slate-900 group-hover:text-brand-700">
                           {cap.title}
                         </h3>
-                        <p className="mt-3 text-sm font-semibold text-slate-700">
-                          {cap.description}
-                        </p>
                       </div>
 
                       <ul className="mt-6 space-y-2.5 border-t border-slate-100 pt-5">
@@ -96,7 +93,7 @@ export default function Services() {
       </section>
 
       {/* Detailed Services & Specialized Workflows */}
-      <section className="section-pad !pt-8 sm:!pt-10 lg:!pt-12 bg-surface-soft border-t border-slate-200/80">
+      <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-surface-soft border-t border-slate-200/80">
         <div className="container-page">
           <Reveal>
             <div className="max-w-3xl mb-8 sm:mb-12">
@@ -132,15 +129,15 @@ export default function Services() {
               id={service.slug}
               className="border-b border-slate-100 last:border-0 scroll-mt-24"
             >
-              <div className="container-page py-14 sm:py-16 lg:py-20">
+              <div className="container-page py-8 sm:py-10 lg:py-12">
                 <div
                   className={`grid items-center gap-8 lg:grid-cols-2 lg:gap-16 ${
                     reversed ? 'lg:[&>*:first-child]:order-last' : ''
                   }`}
                 >
                   <Reveal>
-                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-600 text-white shadow-card-hover">
-                      <Icon className="h-7 w-7" aria-hidden="true" />
+                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-brand-600 text-white shadow-card-hover">
+                      <Icon className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <h2 className="mt-6 text-2xl font-bold text-slate-900 sm:text-3xl">
                       {service.title}

@@ -1,4 +1,4 @@
-import { TrendingUp, Maximize2, PiggyBank, Users, Laptop, Database } from 'lucide-react'
+import { TrendingUp, Maximize2, PiggyBank } from 'lucide-react'
 import { Reveal } from '../ui/Reveal'
 
 const outcomes = [
@@ -33,7 +33,7 @@ const outcomes = [
 
 export function BetterOperatingModelSection() {
   return (
-    <section className="section-pad bg-surface-soft border-t border-slate-200/80">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-surface-soft border-t border-slate-200/80">
       <div className="container-page space-y-12">
         <Reveal>
           <div className="text-center max-w-3xl mx-auto">
@@ -48,47 +48,6 @@ export function BetterOperatingModelSection() {
               SSP combines healthcare expertise, technology, automation, and data to create more
               efficient operating models for medical practices.
             </p>
-          </div>
-        </Reveal>
-
-        {/* Visual Formula Strip: PEOPLE + TECHNOLOGY + DATA */}
-        <Reveal delay={100}>
-          <div className="rounded-2xl border border-slate-200/80 bg-white px-2 py-4 sm:p-6 shadow-sm">
-            <div className="flex flex-row items-start sm:items-center justify-center gap-1 sm:gap-8 text-center">
-              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
-                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
-                  <Users className="h-5 w-5" />
-                </div>
-                <div className="text-center sm:text-left">
-                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">PEOPLE</p>
-                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Experienced Teams</p>
-                </div>
-              </div>
-
-              <span className="text-slate-300 font-bold text-sm sm:text-lg pt-2.5 sm:pt-0">+</span>
-
-              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
-                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-purple-50 text-purple-600">
-                  <Laptop className="h-5 w-5" />
-                </div>
-                <div className="text-center sm:text-left">
-                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">TECHNOLOGY</p>
-                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Automation & AI</p>
-                </div>
-              </div>
-
-              <span className="text-slate-300 font-bold text-sm sm:text-lg pt-2.5 sm:pt-0">+</span>
-
-              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
-                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
-                  <Database className="h-5 w-5" />
-                </div>
-                <div className="text-center sm:text-left">
-                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">DATA</p>
-                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Actionable Insights</p>
-                </div>
-              </div>
-            </div>
           </div>
         </Reveal>
 
@@ -130,18 +89,6 @@ export function BetterOperatingModelSection() {
             )
           })}
         </div>
-
-        {/* Outcome Statement Banner */}
-        <Reveal delay={200}>
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 text-center shadow-soft">
-            <span className="text-xs font-bold uppercase tracking-wider text-brand-600">
-              Outcome
-            </span>
-            <p className="mt-2 text-xl sm:text-2xl font-extrabold text-slate-900">
-              Stronger performance, scalable operations, and greater administrative efficiency.
-            </p>
-          </div>
-        </Reveal>
       </div>
     </section>
   )

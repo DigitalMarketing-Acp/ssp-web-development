@@ -58,7 +58,7 @@ const stages = [
 
 export function HowWeInnovateSection() {
   return (
-    <section className="section-pad bg-white">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-white">
       <div className="container-page">
         <Reveal>
           <SectionHeading
@@ -109,30 +109,6 @@ export function HowWeInnovateSection() {
             )
           })}
         </div>
-
-        {/* Concluding Statement Banner */}
-        <Reveal delay={200}>
-          <div className="relative mt-12 overflow-hidden rounded-3xl border border-brand-200/80 bg-white p-8 sm:p-12 text-slate-900 shadow-card">
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-brand-100/60 blur-3xl"
-            />
-            <div className="relative z-10 max-w-3xl">
-              <span className="text-xs font-bold uppercase tracking-widest text-brand-600">
-                Real-World Grounding
-              </span>
-              <h3 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight">
-                Our innovation doesn’t happen in a demo environment.{' '}
-                <span className="text-brand-600">It happens inside healthcare operations.</span>
-              </h3>
-              <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed">
-                By co-developing solutions directly with clinical providers and administrative
-                staff inside AlignedCardio practices, every workflow is validated against real
-                patient interactions and actual payer responses.
-              </p>
-            </div>
-          </div>
-        </Reveal>
       </div>
     </section>
   )

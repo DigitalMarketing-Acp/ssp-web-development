@@ -4,7 +4,7 @@ import { healthcareWorkflowSteps } from '../../data/capabilities'
 
 export function InnovationWorkflowSection() {
   return (
-    <section className="section-pad bg-surface-soft border-t border-slate-200/80">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-surface-soft border-t border-slate-200/80">
       <div className="container-page space-y-12">
         {/* Top Header & 3-Column Context Block */}
         <Reveal>

@@ -17,7 +17,7 @@ const cards = [
 
 export function VisionMission() {
   return (
-    <section className="section-pad !pt-8 sm:!pt-10 lg:!pt-12">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10">
       <div className="container-page grid gap-6 md:grid-cols-2">
         {cards.map((card, i) => (
           <Reveal

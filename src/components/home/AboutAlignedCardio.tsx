@@ -35,7 +35,7 @@ export function AboutAlignedCardio({
   showHeritageCard?: boolean
 }) {
   return (
-    <section id="alignedcardio" className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-8 sm:!pb-10 lg:!pb-12 bg-surface-soft scroll-mt-24">
+    <section id="alignedcardio" className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-surface-soft scroll-mt-24">
       <div className="container-page space-y-5">
         {/* Card 1: Built by Healthcare Operators */}
         <Reveal>

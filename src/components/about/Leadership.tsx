@@ -91,7 +91,7 @@ const organizationalLeadership = [
 
 export function Leadership() {
   return (
-    <section className="section-pad bg-white">
+    <section className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-white">
       <div className="container-page space-y-16">
         {/* Header matching image11.png */}
         <Reveal>
@@ -183,16 +183,6 @@ export function Leadership() {
                 </div>
               ))}
             </div>
-          </div>
-        </Reveal>
-
-        {/* Bottom Callout matching image11.png */}
-        <Reveal delay={200}>
-          <div className="rounded-2xl border border-brand-200 bg-gradient-to-r from-brand-50/90 via-white to-brand-50/90 p-6 sm:p-8 text-center shadow-soft">
-            <p className="text-lg sm:text-xl font-extrabold text-slate-900">
-              The people building the technology sit alongside the people running the healthcare
-              organization.
-            </p>
           </div>
         </Reveal>
       </div>

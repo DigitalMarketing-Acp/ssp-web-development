@@ -6,7 +6,7 @@ import { capabilities } from '../../data/capabilities'
 
 export function CapabilitiesSection() {
   return (
-    <section id="capabilities" className="section-pad !pt-8 sm:!pt-10 lg:!pt-12 bg-white scroll-mt-20">
+    <section id="capabilities" className="section-pad !pt-6 sm:!pt-8 lg:!pt-10 !pb-6 sm:!pb-8 lg:!pb-10 bg-white scroll-mt-20">
       <div className="container-page">
         <Reveal>
           <SectionHeading
@@ -43,9 +43,6 @@ export function CapabilitiesSection() {
                       <h3 className="mt-1 text-xl font-extrabold text-slate-900 group-hover:text-brand-700">
                         {cap.title}
                       </h3>
-                      <p className="mt-2.5 text-sm leading-relaxed text-slate-600 font-medium">
-                        {cap.description}
-                      </p>
                     </div>
 
                     {/* Feature list */}

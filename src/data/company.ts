@@ -39,7 +39,7 @@ export const company = {
 
 export const visionMission = {
   vision:
-    'To be an exemplary operations and technology engine for physician organizations, setting a new standard for modern healthcare operations through experienced teams, intelligent automation, and measurable practice outcomes.',
+    'To set a new standard in healthcare operations through skilled teams, smart technology and measurable results.',
   mission:
-    'To solve real operational challenges inside physician-led healthcare organizations by unifying experienced teams, technology, analytics, and automation — enabling clinicians to focus entirely on patient care.',
+    'To simplify healthcare operations through experienced teams, technology and automation, allowing clinicians to focus on patient care.',
 }
