@@ -8,7 +8,7 @@ export const company = {
   partner: 'AlignedCardio',
   tagline: 'Healthcare Operations & Technology',
   eyebrow: 'HEALTHCARE OPERATIONS & TECHNOLOGY',
-  heading: 'Healthcare operations, built differently.',
+  heading: 'Healthcare operations, built differently',
   description:
     'Solid State Practice is the operations and technology engine behind AlignedCardio, combining experienced healthcare teams, analytics, automation and AI to build a better way to run medical practices.',
   alignedCardioNote:

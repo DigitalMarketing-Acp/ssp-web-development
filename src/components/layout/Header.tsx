@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { NavLink, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu } from 'lucide-react'
 import { Logo } from '../ui/Logo'
@@ -135,7 +136,10 @@ export function Header() {
         </div>
       </div>
 
-      <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
+      {createPortal(
+        <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />,
+        document.body,
+      )}
     </header>
   )
 }

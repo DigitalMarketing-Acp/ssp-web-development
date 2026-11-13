@@ -30,10 +30,10 @@ export default function Services() {
       </PageHero>
 
       {/* 6 Core Capabilities Section */}
-      <section className="section-pad bg-white">
+      <section className="section-pad !pb-8 sm:!pb-10 lg:!pb-12 bg-white">
         <div className="container-page">
           <Reveal>
-            <div className="text-center max-w-3xl mx-auto mb-14">
+            <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-14">
               <span className="eyebrow justify-center">Core Operational Scope</span>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
                 The Six Pillars of Healthcare Operations
@@ -74,9 +74,6 @@ export default function Services() {
                         <p className="mt-3 text-sm font-semibold text-slate-700">
                           {cap.description}
                         </p>
-                        <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                          {cap.details}
-                        </p>
                       </div>
 
                       <ul className="mt-6 space-y-2.5 border-t border-slate-100 pt-5">
@@ -99,10 +96,10 @@ export default function Services() {
       </section>
 
       {/* Detailed Services & Specialized Workflows */}
-      <section className="section-pad bg-surface-soft border-t border-slate-200/80">
+      <section className="section-pad !pt-8 sm:!pt-10 lg:!pt-12 bg-surface-soft border-t border-slate-200/80">
         <div className="container-page">
           <Reveal>
-            <div className="max-w-3xl mb-12">
+            <div className="max-w-3xl mb-8 sm:mb-12">
               <span className="eyebrow">Detailed Services</span>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
                 Specialized Operations & RCM Workflows

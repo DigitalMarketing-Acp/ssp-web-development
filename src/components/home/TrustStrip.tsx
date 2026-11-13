@@ -4,7 +4,7 @@ import { Reveal } from '../ui/Reveal'
 export function TrustStrip() {
   return (
     <section className="border-y border-slate-100 bg-white">
-      <div className="container-page grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-4 lg:py-12">
+      <div className="container-page grid max-sm:grid-cols-[repeat(4,minmax(0,1fr))] gap-8 py-10 max-sm:gap-1.5 max-sm:[&_p]:text-[9px] max-sm:[&_p]:leading-tight max-sm:[&_h3]:text-[11px] max-sm:[&_h4]:text-[11px] max-sm:[&_div]:!p-1.5 sm:grid-cols-2 lg:grid-cols-4 lg:py-12">
         {valuePillars.map((pillar, i) => (
           <Reveal
             key={pillar.title}

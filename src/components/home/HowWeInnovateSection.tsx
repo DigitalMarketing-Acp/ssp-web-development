@@ -66,36 +66,36 @@ export function HowWeInnovateSection() {
             eyebrow="How We Innovate"
             title="From idea to real-world deployment."
             description="We turn real operational challenges into practical solutions that create measurable impact for healthcare practices."
-            className="mb-14"
+            className="mb-8 sm:mb-14"
           />
         </Reveal>
 
         {/* 5 Stages Sequence Cards with Connecting Indicators */}
-        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid max-sm:grid-cols-[repeat(5,minmax(0,1fr))] gap-5 sm:grid-cols-2 max-sm:gap-1 md:grid-cols-3 lg:grid-cols-5">
           {stages.map((stage, idx) => {
             const Icon = stage.icon
             return (
               <Reveal key={stage.num} delay={idx * 80}>
                 <div
-                  className={`group relative flex h-full flex-col justify-between rounded-3xl border ${stage.borderColor} bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-card`}
+                  className={`group relative flex h-full min-w-0 flex-col justify-between rounded-xl sm:rounded-3xl border ${stage.borderColor} bg-white px-1.5 py-3 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-card`}
                 >
                   <div>
                     {/* Stage number */}
-                    <span className="text-2xl font-black text-slate-300 group-hover:text-brand-600 transition-colors">
+                    <span className="block text-center sm:text-left text-sm sm:text-2xl font-black text-slate-300 group-hover:text-brand-600 transition-colors">
                       {stage.num}
                     </span>
 
-                    <h3 className="mt-3 text-lg font-bold text-slate-900">{stage.title}</h3>
-                    <p className="mt-2 text-xs sm:text-sm leading-relaxed text-slate-600">
+                    <h3 className="mt-2 sm:mt-3 text-center sm:text-left text-[9px] min-[400px]:text-[10px] sm:text-lg font-bold text-slate-900 break-words">{stage.title}</h3>
+                    <p className="mt-1.5 sm:mt-2 text-center sm:text-left text-[7px] min-[400px]:text-[8px] sm:text-sm leading-tight sm:leading-relaxed text-slate-600 break-words hyphens-auto">
                       {stage.description}
                     </p>
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <div className="mt-3 sm:mt-6 pt-2 sm:pt-4 border-t border-slate-100 flex items-center justify-center sm:justify-between">
                     <div
-                      className={`flex h-11 w-11 items-center justify-center rounded-xl ${stage.badgeBg} ${stage.color}`}
+                      className={`flex h-7 w-7 sm:h-11 sm:w-11 items-center justify-center rounded-lg sm:rounded-xl ${stage.badgeBg} ${stage.color}`}
                     >
-                      <Icon className="h-5 w-5" aria-hidden="true" />
+                      <Icon className="h-3.5 w-3.5 sm:h-5 sm:w-5" aria-hidden="true" />
                     </div>
 
                     {idx < stages.length - 1 && (
@@ -112,20 +112,20 @@ export function HowWeInnovateSection() {
 
         {/* Concluding Statement Banner */}
         <Reveal delay={200}>
-          <div className="relative mt-12 overflow-hidden rounded-3xl border border-brand-200/80 bg-gradient-to-r from-brand-900 via-brand-800 to-slate-900 p-8 sm:p-12 text-white shadow-xl">
+          <div className="relative mt-12 overflow-hidden rounded-3xl border border-brand-200/80 bg-white p-8 sm:p-12 text-slate-900 shadow-card">
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-brand-500/20 blur-3xl"
+              className="pointer-events-none absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-brand-100/60 blur-3xl"
             />
             <div className="relative z-10 max-w-3xl">
-              <span className="text-xs font-bold uppercase tracking-widest text-brand-300">
+              <span className="text-xs font-bold uppercase tracking-widest text-brand-600">
                 Real-World Grounding
               </span>
               <h3 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight">
                 Our innovation doesn’t happen in a demo environment.{' '}
-                <span className="text-brand-300">It happens inside healthcare operations.</span>
+                <span className="text-brand-600">It happens inside healthcare operations.</span>
               </h3>
-              <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed">
+              <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed">
                 By co-developing solutions directly with clinical providers and administrative
                 staff inside AlignedCardio practices, every workflow is validated against real
                 patient interactions and actual payer responses.

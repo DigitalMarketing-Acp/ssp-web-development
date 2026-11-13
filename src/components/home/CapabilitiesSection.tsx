@@ -14,7 +14,7 @@ export function CapabilitiesSection() {
             eyebrow="What We Do"
             title="Healthcare Operations & Technology"
             description="Integrated people, processes and technology to help medical practices operate more efficiently and deliver better patient experiences."
-            className="mb-14"
+            className="mb-8 sm:mb-14"
           />
         </Reveal>
 

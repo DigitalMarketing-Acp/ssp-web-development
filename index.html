@@ -12,10 +12,105 @@
     <!-- Hero + section imagery is served from the Unsplash CDN; warm the connection early. -->
     <link rel="preconnect" href="https://images.unsplash.com" />
     <!-- Plus Jakarta Sans is self-hosted (see src/index.css @font-face) — no external font requests. -->
+    <link rel="canonical" href="https://solidstatepractice.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Solid State Practice" />
+    <meta
+      name="keywords"
+      content="healthcare operations, revenue cycle management, patient access, medical billing, healthcare automation, healthcare AI, AlignedCardio, cardiology practice management"
+    />
+
+    <!-- Open Graph / Twitter (overridden per page by useSeo) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Solid State Practice" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Solid State Practice — Healthcare Operations & Technology" />
+    <meta
+      property="og:description"
+      content="Solid State Practice is the operations and technology engine behind AlignedCardio, combining experienced healthcare teams, analytics, automation and AI to build a better way to run medical practices."
+    />
+    <meta property="og:url" content="https://solidstatepractice.com/" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Solid State Practice — Healthcare Operations & Technology" />
+    <meta
+      name="twitter:description"
+      content="The operations and technology engine behind AlignedCardio: experienced healthcare teams, analytics, automation and AI."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Structured data: Organization + WebSite -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://solidstatepractice.com/#organization",
+            "name": "Solid State Practice",
+            "alternateName": "SSP",
+            "url": "https://solidstatepractice.com/",
+            "logo": "https://solidstatepractice.com/favicon.png",
+            "description": "Solid State Practice is the operations and technology engine behind AlignedCardio, combining experienced healthcare teams, analytics, automation and AI.",
+            "parentOrganization": { "@type": "Organization", "name": "AlignedCardio", "url": "https://alignedcardio.com" },
+            "foundingDate": "2023",
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "445 Charles H. Dimmock Pkwy, Suite 104",
+                "addressLocality": "Colonial Heights",
+                "addressRegion": "VA",
+                "postalCode": "23834",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "4th floor, DC 13&14, Elcot Sez Tidel Park",
+                "addressLocality": "Coimbatore",
+                "postalCode": "641014",
+                "addressCountry": "IN"
+              }
+            ],
+            "contactPoint": [
+              { "@type": "ContactPoint", "telephone": "+1-512-333-4695", "contactType": "customer service", "areaServed": "US" },
+              { "@type": "ContactPoint", "telephone": "+91-90800-57801", "contactType": "customer service", "areaServed": "IN" }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://solidstatepractice.com/#website",
+            "url": "https://solidstatepractice.com/",
+            "name": "Solid State Practice",
+            "publisher": { "@id": "https://solidstatepractice.com/#organization" }
+          }
+        ]
+      }
+    </script>
     <title>Solid State Practice — Healthcare Operations & Technology</title>
+    <meta name="google-site-verification" content="J-ucc3KSTtJChf5zrNsj7gan4JrMEfviGTtOYesmrns" />
+
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P6QJZTL9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Solid State Practice — Healthcare Operations &amp; Technology</h1>
+      <p>Solid State Practice is the operations and technology engine behind AlignedCardio, combining experienced healthcare teams, analytics, automation and AI to build a better way to run medical practices.</p>
+      <p>Please enable JavaScript to view this website.</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

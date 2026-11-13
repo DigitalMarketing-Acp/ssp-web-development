@@ -28,13 +28,12 @@ export function Hero() {
 
           <h1 className="mt-5 text-balance text-4xl font-extrabold leading-[1.1] text-slate-900 sm:text-5xl lg:text-[3.5rem]">
             Healthcare operations,{' '}
-            <span className="text-gradient-brand">built differently.</span>
+            <span className="text-gradient-brand">built differently</span>
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600 font-normal">
-            Solid State Practice is the operations and technology engine behind AlignedCardio,
-            combining experienced healthcare teams, analytics, automation and AI to build a better
-            way to run medical practices.
+            Solid State Practice helps healthcare organizations improve operations through
+            experienced teams, technology, analytics, automation, and AI.
           </p>
 
           <div className="mt-4 rounded-xl border border-brand-100 bg-brand-50/60 p-4 text-sm leading-relaxed text-slate-700">

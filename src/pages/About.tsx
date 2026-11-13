@@ -7,6 +7,7 @@ import { CTASection } from '../components/shared/CTASection'
 import { VisionMission } from '../components/home/VisionMission'
 import { Leadership } from '../components/about/Leadership'
 import { AboutAlignedCardio } from '../components/home/AboutAlignedCardio'
+import { CoreAreasGrid } from '../components/home/CoreAreasGrid'
 import { images, imgAt, imgSrcSet } from '../data/images'
 
 const operationalPillars = [
@@ -51,8 +52,8 @@ export default function About() {
             </h2>
             <div className="mt-5 space-y-4 text-base leading-relaxed text-slate-600">
               <p>
-                Solid State Practice was built to solve the operational challenges we encounter every
-                day inside a growing physician-led healthcare organization.
+                Solid State Practice was created to solve the everyday operational challenges of
+                growing healthcare organizations.
               </p>
               <p>
                 As part of{' '}
@@ -64,15 +65,13 @@ export default function About() {
                 >
                   AlignedCardio
                 </a>
-                , SSP supports the infrastructure behind a
-                complex, multi-market cardiovascular platform, from revenue cycle and patient access
-                to analytics, finance, automation and AI.
+                , SSP supports key areas such as patient access,
+                revenue cycle, finance, analytics, automation and AI.
               </p>
               <p>
-                Our operating environment is our laboratory: we identify problems, build better
-                workflows, deploy them in real-world healthcare settings, measure the results and
-                continuously improve them. Today, we bring that same operating discipline and
-                technology-enabled approach to the organizations we support.
+                Using real-world healthcare experience, we identify challenges, improve workflows and
+                deliver better results. Today, we bring this practical experience and
+                technology-driven approach to the healthcare organizations we support.
               </p>
             </div>
 
@@ -84,25 +83,13 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={100} className="relative">
-            <div className="aspect-[4/3] overflow-hidden rounded-3xl border border-slate-200/70 shadow-card">
-              <img
-                src={imgAt(images.aboutStory, 800)}
-                srcSet={imgSrcSet(images.aboutStory, [400, 550, 800, 1100])}
-                sizes="(min-width: 1024px) 550px, 100vw"
-                alt="Healthcare and operations leaders collaborating on clinical practice workflows"
-                className="h-full w-full object-cover"
-                width={1100}
-                height={820}
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+            <CoreAreasGrid />
           </Reveal>
         </div>
       </section>
 
       {/* Part of AlignedCardio Section */}
-      <AboutAlignedCardio />
+      <AboutAlignedCardio showHeritageCard={false} />
 
       {/* Operational Pillars */}
       <section className="section-pad bg-white">
@@ -113,11 +100,11 @@ export default function About() {
               eyebrow="Core Strengths"
               title="How we elevate practice operations"
               description="Our operational model unites people, processes, and modern automation to deliver sustained excellence."
-              className="mb-12"
+              className="mb-8 sm:mb-12"
             />
           </Reveal>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid max-sm:grid-cols-[repeat(4,minmax(0,1fr))] gap-6 max-sm:gap-1.5 max-sm:[&_p]:text-[9px] max-sm:[&_p]:leading-tight max-sm:[&_h3]:text-[11px] max-sm:[&_h4]:text-[11px] max-sm:[&_div]:!p-1.5 sm:grid-cols-2 lg:grid-cols-4">
             {operationalPillars.map((g, i) => (
               <Reveal
                 key={g.label}
@@ -184,7 +171,7 @@ export default function About() {
 
       {/* Vision & Mission */}
       <div className="bg-surface-soft">
-        <div className="container-page pt-16 text-center sm:pt-20 lg:pt-24">
+        <div className="container-page pt-10 text-center sm:pt-16 lg:pt-20">
           <Reveal>
             <SectionHeading
               align="center"

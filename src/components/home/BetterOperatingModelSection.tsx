@@ -53,39 +53,39 @@ export function BetterOperatingModelSection() {
 
         {/* Visual Formula Strip: PEOPLE + TECHNOLOGY + DATA */}
         <Reveal delay={100}>
-          <div className="rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-sm">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-center">
-              <div className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+          <div className="rounded-2xl border border-slate-200/80 bg-white px-2 py-4 sm:p-6 shadow-sm">
+            <div className="flex flex-row items-start sm:items-center justify-center gap-1 sm:gap-8 text-center">
+              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
+                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
                   <Users className="h-5 w-5" />
                 </div>
-                <div className="text-left">
-                  <p className="text-xs font-bold text-slate-900">PEOPLE</p>
-                  <p className="text-[11px] text-slate-500 font-medium">Experienced Teams</p>
+                <div className="text-center sm:text-left">
+                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">PEOPLE</p>
+                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Experienced Teams</p>
                 </div>
               </div>
 
-              <span className="text-slate-300 font-bold text-lg hidden sm:block">+</span>
+              <span className="text-slate-300 font-bold text-sm sm:text-lg pt-2.5 sm:pt-0">+</span>
 
-              <div className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-purple-50 text-purple-600">
+              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
+                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-purple-50 text-purple-600">
                   <Laptop className="h-5 w-5" />
                 </div>
-                <div className="text-left">
-                  <p className="text-xs font-bold text-slate-900">TECHNOLOGY</p>
-                  <p className="text-[11px] text-slate-500 font-medium">Automation & AI</p>
+                <div className="text-center sm:text-left">
+                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">TECHNOLOGY</p>
+                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Automation & AI</p>
                 </div>
               </div>
 
-              <span className="text-slate-300 font-bold text-lg hidden sm:block">+</span>
+              <span className="text-slate-300 font-bold text-sm sm:text-lg pt-2.5 sm:pt-0">+</span>
 
-              <div className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
+              <div className="flex flex-1 sm:flex-none min-w-0 flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
+                <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
                   <Database className="h-5 w-5" />
                 </div>
-                <div className="text-left">
-                  <p className="text-xs font-bold text-slate-900">DATA</p>
-                  <p className="text-[11px] text-slate-500 font-medium">Actionable Insights</p>
+                <div className="text-center sm:text-left">
+                  <p className="text-[10px] min-[400px]:text-[11px] sm:text-xs font-bold text-slate-900">DATA</p>
+                  <p className="text-[8px] min-[400px]:text-[9px] sm:text-[11px] leading-tight text-slate-500 font-medium">Actionable Insights</p>
                 </div>
               </div>
             </div>

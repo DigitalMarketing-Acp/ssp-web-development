@@ -39,11 +39,11 @@ export function ProcessSection() {
             eyebrow="How We Help"
             title="A simpler path to better revenue cycle operations"
             description="A clear, four-step approach that turns billing complexity into dependable, measurable operations."
-            className="mb-14"
+            className="mb-8 sm:mb-14"
           />
         </Reveal>
 
-        <div className="relative grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="relative grid max-sm:grid-cols-[repeat(4,minmax(0,1fr))] gap-8 max-sm:gap-1.5 max-sm:[&_p]:text-[9px] max-sm:[&_p]:leading-tight max-sm:[&_h3]:text-[11px] max-sm:[&_h4]:text-[11px] max-sm:[&_div]:!p-1.5 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {/* connecting line on desktop */}
           <div
             aria-hidden="true"

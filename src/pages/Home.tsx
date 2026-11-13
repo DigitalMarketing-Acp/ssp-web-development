@@ -1,13 +1,12 @@
 import { useSeo } from '../hooks/useSeo'
+import { AboutAlignedCardio } from '../components/home/AboutAlignedCardio'
 import { Hero } from '../components/home/Hero'
 import { StatsSection } from '../components/home/StatsSection'
-import { AboutAlignedCardio } from '../components/home/AboutAlignedCardio'
 import { CapabilitiesSection } from '../components/home/CapabilitiesSection'
 import { InnovationWorkflowSection } from '../components/home/InnovationWorkflowSection'
 import { HowWeInnovateSection } from '../components/home/HowWeInnovateSection'
 import { BetterOperatingModelSection } from '../components/home/BetterOperatingModelSection'
 import { BuiltAtScaleSection } from '../components/home/BuiltAtScaleSection'
-import { VisionMission } from '../components/home/VisionMission'
 import { CTASection } from '../components/shared/CTASection'
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
       <StatsSection />
 
       {/* 3. About SSP & Part of AlignedCardio Platform */}
-      <AboutAlignedCardio />
+      <AboutAlignedCardio showPartOfCard={false} />
 
       {/* 4. 6 Operational Capabilities */}
       <CapabilitiesSection />
@@ -44,7 +43,6 @@ export default function Home() {
       <BuiltAtScaleSection />
 
       {/* 9. Vision & Mission */}
-      <VisionMission />
 
       {/* 10. Partner CTA */}
       <CTASection

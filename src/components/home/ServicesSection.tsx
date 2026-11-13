@@ -14,7 +14,7 @@ export function ServicesSection() {
             eyebrow="What We Do"
             title="End-to-end revenue cycle support"
             description="Practical solutions designed to simplify complex billing operations and help practices operate more efficiently."
-            className="mb-12"
+            className="mb-8 sm:mb-12"
           />
         </Reveal>
 

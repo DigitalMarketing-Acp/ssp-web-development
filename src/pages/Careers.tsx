@@ -73,7 +73,7 @@ export default function Careers() {
               so clinicians can focus on their patients. We’re building a team that’s innovative,
               dependable, and genuinely supportive of one another.
             </p>
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            <div className="mt-8 grid max-sm:grid-cols-[repeat(3,minmax(0,1fr))] gap-4 max-sm:gap-1.5 max-sm:[&_p]:text-[9px] max-sm:[&_p]:leading-tight max-sm:[&_h3]:text-[11px] max-sm:[&_h4]:text-[11px] max-sm:[&_div]:!p-1.5 sm:grid-cols-3">
               {whyJoin.map((w) => (
                 <div key={w.title} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-card">
                   <w.icon className="h-6 w-6 text-brand-600" aria-hidden="true" />
@@ -110,10 +110,10 @@ export default function Careers() {
               eyebrow="What We Value"
               title="The principles that shape our culture"
               description="Our values come straight from how we work with clients and with each other."
-              className="mb-12"
+              className="mb-8 sm:mb-12"
             />
           </Reveal>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid max-sm:grid-cols-[repeat(4,minmax(0,1fr))] gap-6 max-sm:gap-1.5 max-sm:[&_p]:text-[9px] max-sm:[&_p]:leading-tight max-sm:[&_h3]:text-[11px] max-sm:[&_h4]:text-[11px] max-sm:[&_div]:!p-1.5 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v, i) => (
               <Reveal
                 key={v.title}

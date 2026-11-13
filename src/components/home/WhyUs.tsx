@@ -57,7 +57,7 @@ export function WhyUs() {
                 more smoothly, every day.
               </span>
             }
-            className="mb-14 [&_.eyebrow]:text-brand-300"
+            className="mb-8 sm:mb-14 [&_.eyebrow]:text-brand-300"
           />
         </Reveal>
 
